@@ -1,0 +1,22 @@
+{
+  "name": "menu-management",
+  "version": "1.0.0",
+  "description": "This Node.js backend server manages a menu, including categories, subcategories, and items. It provides endpoints for CRUD operations and item search.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Som Dubey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.11",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
