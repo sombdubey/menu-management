@@ -14,8 +14,11 @@ Postman (for API testing)
 ## Installation
 
 Clone the repository:
+
 git clone https://github.com/sombdubey/menu-management.git
+
 cd menu-management
+
 Install dependencies:
 npm install
 
