@@ -36,8 +36,11 @@ npm start
 
 **Create Category**
 Method: POST
+
 URL: /api/categories
+
 Body:
+
 {
   "name": "Beverages",
   "image": "http://example.com/beverages.jpg",
@@ -48,18 +51,31 @@ Body:
 }
 
 
+
 **Get All Categories**
+
 Method: GET
+
 URL: /api/categories
 
+
+
 **Get Category by ID or Name**
+
 Method: GET
+
 URL: /api/categories/:idOrName
 
+
+
 **Edit Category**
+
 Method: PUT
+
 URL: /api/categories/:id
+
 Body:
+
 {
   "name": "Updated Beverages",
   "image": "http://example.com/updated_beverages.jpg",
@@ -70,12 +86,17 @@ Body:
 }
 
 
+
 ### Subcategories:
 
 **Create SubCategory**
+
 Method: POST
+
 URL: /api/subcategories
+
 Body:
+
 {
   "category": "Category_ID",
   "name": "Soft Drinks",
@@ -85,18 +106,29 @@ Body:
   "tax": 5
 }
 
+
 **Get All SubCategories**
+
 Method: GET
+
 URL: /api/subcategories
 
+
 **Get SubCategory by ID or Name**
+
 Method: GET
+
 URL: /api/subcategories/:idOrName
 
+
 **Edit SubCategory**
+
 Method: PUT
+
 URL: /api/subcategories/:id
+
 Body:
+
 {
   "name": "Updated Soft Drinks",
   "image": "http://example.com/updated_softdrinks.jpg",
@@ -107,12 +139,17 @@ Body:
 
 
 
+
 ### Items
 
 **Create Item**
+
 Method: POST
+
 URL: /api/items
+
 Body:
+
 {
   "category": "Category_ID",
   "subCategory": "SubCategory_ID",
@@ -125,18 +162,29 @@ Body:
   "discount": 5
 }
 
+
 **Get All Items**
+
 Method: GET
+
 URL: /api/items
 
+
 **Get Item by ID or Name**
+
 Method: GET
+
 URL: /api/items/:idOrName
 
+
 **Edit Item**
+
 Method: PUT
+
 URL: /api/items/:id
+
 Body:
+
 {
   "name": "Updated Coca Cola",
   "image": "http://example.com/updated_cocacola.jpg",
@@ -148,28 +196,43 @@ Body:
   "totalAmount": 50
 }
 
+
 **Search Item by Name**
+
 Method: GET
+
 URL: /api/items/search
+
 Query Param: name
-url
+
+url:
+
 /api/items/search?name=Coca Cola
 
 
+
 ## Database
+
 The project uses MongoDB as its database. MongoDB was chosen for its flexibility and scalability, making it suitable for handling complex data structures like categories, subcategories, and items.
 
+
 ## Inline Comments
+
 Inline comments are provided throughout the codebase to enhance clarity and maintainability. They explain the purpose of functions, variables, and complex logic blocks. Reviewing these comments can help understand the codebase better and make modifications if needed.
 
 
 ## GitHub Repository
+
 The code for this project is hosted on GitHub at your-github-repository-url.
 
+
 ## Running Locally
+
 Follow the steps mentioned in the Installation section to set up the project locally. After installation, you can start the server using npm start. 
 
+
 ## Short Answers
+
 Database: MongoDB was chosen for its flexibility and scalability.
 Three things learned:
 Implementing CRUD operations in a Node.js application.
@@ -181,7 +244,9 @@ Implement authentication and authorization.
 Enhance error handling and validation.
 Improve search functionality with advanced filtering options.
 
+
 ## Author
+
 Name: Som Dubey
 GitHub: https://github.com/sombdubey
 LinkedIn: https://www.linkedin.com/in/somdubey/
