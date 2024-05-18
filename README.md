@@ -1,17 +1,44 @@
 # Menu Management API
 This Node.js backend server manages a menu, including categories, subcategories, and items. It provides endpoints for CRUD operations and item search.
 
+## Table of Contents:
+
+- [Menu Management API](#menu-management-api)
+  - [Project Overview](#project-overview)
+  - [Project Setup](#project-setup)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [API Endpoints](#api-endpoints)
+    - [Categories](#categories)
+    - [Subcategories](#subcategories)
+    - [Items](#items)
+  - [Database](#database)
+  - [Inline Comments](#inline-comments)
+  - [GitHub Repository](#github-repository)
+  - [Running Locally](#running-locally)
+  - [Short Answers](#short-answers)
+  - [Author](#author)
+
+
 ## Project Overview
 This project is a Node.js application built using Express.js and MongoDB. It offers a RESTful API for managing menus in a restaurant or similar setting. The API allows users to create, retrieve, update, and delete categories, subcategories, and items. Additionally, it provides a search endpoint to find items by name.
 
 ## Project Setup
 
+
 ### Prerequisites
 Node.js (v12.x or higher)
+
 MongoDB (Local or Cloud instance)
+
 Postman (for API testing)
 
-## Installation
+Javascript
+
+Express.js
+
+
+### Installation
 
 Clone the repository:
 
@@ -33,7 +60,9 @@ npm start
 
 ## API Endpoints:
 
+
 ### Categories:
+
 
 
 **Create Category**
@@ -62,6 +91,7 @@ Body:
 
 
 
+
 **Get All Categories**
 
 Method: GET
@@ -70,11 +100,13 @@ URL: /api/categories
 
 
 
+
 **Get Category by ID or Name**
 
 Method: GET
 
 URL: /api/categories/:idOrName
+
 
 
 
@@ -105,7 +137,10 @@ Body:
 
 
 
+
+
 ### Subcategories:
+
 
 
 **Create SubCategory**
@@ -134,6 +169,7 @@ Body:
 
 
 
+
 **Get All SubCategories**
 
 Method: GET
@@ -142,11 +178,13 @@ URL: /api/subcategories
 
 
 
+
 **Get SubCategory by ID or Name**
 
 Method: GET
 
 URL: /api/subcategories/:idOrName
+
 
 
 
@@ -176,7 +214,10 @@ Body:
 
 
 
+
+
 ### Items
+
 
 
 **Create Item**
@@ -211,6 +252,7 @@ Body:
 
 
 
+
 **Get All Items**
 
 Method: GET
@@ -219,11 +261,13 @@ URL: /api/items
 
 
 
+
 **Get Item by ID or Name**
 
 Method: GET
 
 URL: /api/items/:idOrName
+
 
 
 
@@ -257,6 +301,7 @@ Body:
 
 
 
+
 **Search Item by Name**
 
 Method: GET
@@ -271,9 +316,11 @@ url:
 
 
 
+
 ## Database
 
 The project uses MongoDB as its database. MongoDB was chosen for its flexibility and scalability, making it suitable for handling complex data structures like categories, subcategories, and items.
+
 
 
 ## Inline Comments
@@ -281,14 +328,17 @@ The project uses MongoDB as its database. MongoDB was chosen for its flexibility
 Inline comments are provided throughout the codebase to enhance clarity and maintainability. They explain the purpose of functions, variables, and complex logic blocks. Reviewing these comments can help understand the codebase better and make modifications if needed.
 
 
+
 ## GitHub Repository
 
 The code for this project is hosted on GitHub at https://github.com/sombdubey/menu-management.
 
 
+
 ## Running Locally
 
 Follow the steps mentioned in the Installation section to set up the project locally. After installation, you can start the server using npm start. 
+
 
 
 ## Short Answers
@@ -312,6 +362,7 @@ Implement authentication and authorization.
 Enhance error handling and validation.
 
 Improve search functionality with advanced filtering options.
+
 
 
 
