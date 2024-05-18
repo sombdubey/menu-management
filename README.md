@@ -1,17 +1,17 @@
-#Menu Management API
+# Menu Management API
 This Node.js backend server manages a menu, including categories, subcategories, and items. It provides endpoints for CRUD operations and item search.
 
-##Project Overview
+## Project Overview
 This project is a Node.js application built using Express.js and MongoDB. It offers a RESTful API for managing menus in a restaurant or similar setting. The API allows users to create, retrieve, update, and delete categories, subcategories, and items. Additionally, it provides a search endpoint to find items by name.
 
-##Project Setup
+## Project Setup
 
-###Prerequisites
+### Prerequisites
 Node.js (v12.x or higher)
 MongoDB (Local or Cloud instance)
 Postman (for API testing)
 
-##Installation
+## Installation
 
 Clone the repository:
 git clone https://github.com/sombdubey/menu-management.git
@@ -27,11 +27,11 @@ Create a config folder in the root directory and add a default.json file with yo
 Start the server:
 npm start
 
-##API Endpoints:
+## API Endpoints:
 
-###Categories:
+### Categories:
 
-Create Category
+**Create Category**
 Method: POST
 URL: /api/categories
 Body:
@@ -45,17 +45,15 @@ Body:
 }
 
 
-Get All Categories
+**Get All Categories**
 Method: GET
 URL: /api/categories
 
-
-Get Category by ID or Name
+**Get Category by ID or Name**
 Method: GET
 URL: /api/categories/:idOrName
 
-
-Edit Category
+**Edit Category**
 Method: PUT
 URL: /api/categories/:id
 Body:
@@ -69,10 +67,9 @@ Body:
 }
 
 
+### Subcategories:
 
-###Subcategories:
-
-Create SubCategory
+**Create SubCategory**
 Method: POST
 URL: /api/subcategories
 Body:
@@ -85,15 +82,15 @@ Body:
   "tax": 5
 }
 
-Get All SubCategories
+**Get All SubCategories**
 Method: GET
 URL: /api/subcategories
 
-Get SubCategory by ID or Name
+**Get SubCategory by ID or Name**
 Method: GET
 URL: /api/subcategories/:idOrName
 
-Edit SubCategory
+**Edit SubCategory**
 Method: PUT
 URL: /api/subcategories/:id
 Body:
@@ -107,9 +104,9 @@ Body:
 
 
 
-###Items
+### Items
 
-Create Item
+**Create Item**
 Method: POST
 URL: /api/items
 Body:
@@ -125,15 +122,15 @@ Body:
   "discount": 5
 }
 
-Get All Items
+**Get All Items**
 Method: GET
 URL: /api/items
 
-Get Item by ID or Name
+**Get Item by ID or Name**
 Method: GET
 URL: /api/items/:idOrName
 
-Edit Item
+**Edit Item**
 Method: PUT
 URL: /api/items/:id
 Body:
@@ -148,7 +145,7 @@ Body:
   "totalAmount": 50
 }
 
-Search Item by Name
+**Search Item by Name**
 Method: GET
 URL: /api/items/search
 Query Param: name
@@ -156,20 +153,20 @@ url
 /api/items/search?name=Coca Cola
 
 
-##Database
+## Database
 The project uses MongoDB as its database. MongoDB was chosen for its flexibility and scalability, making it suitable for handling complex data structures like categories, subcategories, and items.
 
-##Inline Comments
+## Inline Comments
 Inline comments are provided throughout the codebase to enhance clarity and maintainability. They explain the purpose of functions, variables, and complex logic blocks. Reviewing these comments can help understand the codebase better and make modifications if needed.
 
 
-##GitHub Repository
+## GitHub Repository
 The code for this project is hosted on GitHub at your-github-repository-url.
 
-##Running Locally
+## Running Locally
 Follow the steps mentioned in the Installation section to set up the project locally. After installation, you can start the server using npm start. 
 
-##Short Answers
+## Short Answers
 Database: MongoDB was chosen for its flexibility and scalability.
 Three things learned:
 Implementing CRUD operations in a Node.js application.
@@ -181,6 +178,7 @@ Implement authentication and authorization.
 Enhance error handling and validation.
 Improve search functionality with advanced filtering options.
 
-##Author: Som Dubey
+## Author
+Name: Som Dubey
 GitHub: https://github.com/sombdubey
 LinkedIn: https://www.linkedin.com/in/somdubey/
