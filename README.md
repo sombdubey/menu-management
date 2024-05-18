@@ -3,7 +3,7 @@ This Node.js backend server manages a menu, including categories, subcategories,
 
 ## Table of Contents:
 
-- [Menu Management API](#menu-management-api)
+
   - [Project Overview](#project-overview)
   - [Project Setup](#project-setup)
     - [Prerequisites](#prerequisites)
