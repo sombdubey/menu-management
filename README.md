@@ -8,6 +8,7 @@ This Node.js backend server manages a menu, including categories, subcategories,
   - [Project Setup](#project-setup)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+  - [Demo Video](#demo-video)
   - [API Endpoints](#api-endpoints)
     - [Categories](#categories)
     - [Subcategories](#subcategories)
@@ -57,6 +58,15 @@ Create a config folder in the root directory and add a default.json file with yo
 
 Start the server:
 npm start
+
+
+
+## Demo Video
+
+
+You can view the demo video here: [Watch the Loom video](https://www.loom.com/share/2fd7ca39e9744981927c0a0eb7be9ad3?sid=7d8080f0-746e-4fc4-b58a-2400be3a2e9c)
+
+
 
 ## API Endpoints:
 
